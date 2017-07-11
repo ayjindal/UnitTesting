@@ -11,7 +11,6 @@ import static com.directi.training.unittesting.exercise.GamePlay.Choice.STAY;
 
 public class GamePlay
 {
-
     private final DisplayResult displayResult = new DisplayResult(new Dao());
 
     public static void main(String[] args)

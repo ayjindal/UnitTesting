@@ -32,7 +32,7 @@ public class Player
         return sum;
     }
 
-    public boolean isBust()
+    private boolean isBust()
     {
         return value() < 0;
     }

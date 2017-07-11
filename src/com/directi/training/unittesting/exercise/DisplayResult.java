@@ -44,11 +44,11 @@ public class DisplayResult
         private Connection con;
         private PreparedStatement st;
 
-        public Dao()
+        Dao()
         {
             try {
                 con = DriverManager
-                    .getConnection("jdbc:mysql://localhost:3306/blackjack", "root", "");
+                    .getConnection("jdbc:mysql://localhost:3306/blackjack", "root", "root");
             } catch (Exception e) {
                 e.printStackTrace();
             }
